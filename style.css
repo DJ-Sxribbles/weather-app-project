@@ -1,0 +1,112 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 48px;
+  color: #5a5d63;
+  margin: 0;
+  line-height: 32px;
+}
+
+form {
+  margin-top: 50px;
+}
+
+.card {
+  border: none;
+}
+.card-body {
+  border: 2px solid #5a5d63;
+  border-radius: 10px;
+  width: 45%;
+  display: block;
+  margin: 30px auto;
+  padding: 60px 40px;
+  line-height: 28px;
+}
+
+.emoji-weather {
+  font-size: 55px;
+  text-align: center;
+  margin: 10px 0 0 0;
+  line-height: 28px;
+}
+
+.sm-emoji-weather {
+  font-size: 35px;
+  line-height: 5px;
+  margin: 15px 0 0 0;
+}
+
+h2 .fa-circle {
+  font-size: 15px;
+  font-weight: 200;
+}
+
+.fa-circle {
+  font-size: 6px;
+}
+
+.table-style {
+  text-align: center;
+  padding: 0 50px;
+  margin: 0px auto;
+}
+
+.forward-slash {
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.left-side-high {
+  text-align: right;
+  font: 18px;
+  line-height: 5px;
+  margin: 0;
+}
+
+.right-side-low {
+  text-align: left;
+  font: 18px;
+  line-height: 5px;
+  margin: 0;
+}
+
+.top-degree-line {
+  font-size: 15px;
+  line-height: 5px;
+  margin: 0;
+}
+
+.dash-line {
+  font-size: 20px;
+  line-height: 5px;
+  margin: 5px 0;
+}
+
+.bottom-degree-line {
+  font-size: 15px;
+  line-height: 5px;
+  margin: 0;
+}
+
+.search-btn {
+  color: #fff;
+  background-color: #273bd8;
+  border-radius: 35px;
+  border: none;
+  box-shadow: 2px 2px 8px #5a5d63;
+}
+
+.search-btn:hover {
+  background-color: #1c2a96;
+  cursor: pointer;
+}
+
+#search {
+  text-align: center;
+}

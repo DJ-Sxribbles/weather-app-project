@@ -4,11 +4,146 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>🌤 Weather App</title>
+    <script
+      src="https://kit.fontawesome.com/f33251fc2d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/styles.css" />
   </head>
+
   <body>
-    <h1>GitHub is complex</h1>
-    <script scr="script.js"></script>
+    <div class="container text-center">
+      <div class="card">
+        <div class="card-body">
+          <h1>Las Cruces</h1>
+          <br />
+          <p class="emoji-weather">⛅️</p>
+          <br />
+          <h2>
+            78<sup><i class="fa-regular fa-circle"></i></sup>F
+          </h2>
+          <br />
+          <!--top high and low weather section-->
+          <!--column 1-->
+
+        <table class="table-style">
+          <tr>
+            <td>81<sup><i class="fa-regular fa-circle"></i></sup></td>
+            <td rowspan="2" class="forward-slash">/</td>
+            <td>54<sup><i class="fa-regular fa-circle"></i></sup></td>
+            <tr>
+              <td>High</td>
+              <td>Low</td>
+            </tr>
+          </tr>
+        </table>
+          <!--<div class="row justify-content-center">
+            <div class="col-4 left-side-high">
+              81<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col-4">
+              <i class="fa-regular fa-slash-forward"></i>
+            </div>
+            <div class="col-4 right-side-low">
+              54<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-4 left-side-high">High</div>
+            <div class="col-4">
+              <i class="fa-solid fa-slash"></i>
+            </div>
+            <div class="col-4 right-side-low">Low</div>
+          </div>-->
+          <br />
+          <!--weather emoji row-->
+          <div class="row row-cols-5 sm-emoji-weather">
+            <div class="col">⛅️</div>
+            <div class="col">⛅️</div>
+            <div class="col">🌩</div>
+            <div class="col">🌧</div>
+            <div class="col">☁️</div>
+          </div>
+          <br />
+          <!--top degree row-->
+          <div class="row row-cols-5 top-degree-line">
+            <div class="col">
+              82<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              79<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              76<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              72<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              73<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+          </div>
+          <!--dash line-->
+          <div class="row row-cols-5 dash-line">
+            <div class="col">
+              <i class="fa-solid fa-minus"></i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-minus"></i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-minus"></i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-minus"></i>
+            </div>
+            <div class="col">
+              <i class="fa-solid fa-minus"></i>
+            </div>
+          </div>
+          <!--bottom degree row-->
+          <div class="row row-cols-5 bottom-degree-line">
+            <div class="col">
+              60<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              58<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              56<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              55<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+            <div class="col">
+              54<sup><i class="fa-regular fa-circle"></i></sup>
+            </div>
+          </div>
+          <form>
+            <input type="text" id="search" placeholder="🧐 Search City" />
+            <input class="search-btn" type="submit" value="Go" />
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
